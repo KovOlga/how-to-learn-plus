@@ -1,83 +1,29 @@
 @import url("../rotation/rotation.css");
 
+@import url("../logo/logo.css");
+
+@import url("../logo/_place_header/logo_place_header.css");
+
+@import url("./__title/header__title.css");
+
+@import url("./__subtitle/header__subtitle.css");
+
+@import url("./__link/header__link.css");
+
+@import url("./__main-illustration/header__main-illustration.css");
+
+@import url("./__square-pic/header__square-pic.css");
+
 .header {
     min-height: 600px;
     max-height: 756px;
+    height: 100vh;
     margin: 0 auto;
     position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #f2f2f2;
     overflow: hidden;
-}
-
-.logo {
-    width: 228px;
-    height: 32px;
-    border: 1px solid red;
-}
-
-.logo_place_header {
-    position: absolute;
-    top: 30px;
-    left: 64px;
-    z-index: 3;
-}
-
-.header__title {
-    font-size: 102px;
-    font-weight: 600;
-    line-height: 96px;
-    width: 730px;
-    margin-left: 64px;
-    border: 1px solid red;
-    z-index: 3;
-}
-
-.header__subtitle {
-    position: absolute;
-    bottom: 30px;
-    left: 64px;
-    width: 388px;
-    border: 1px solid red;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-    z-index: 3;
-}
-
-.header__link {
-    text-decoration: none;
-    color: #2f80ed;
-    opacity: 1;
-    transition: opacity 0.3s linear;
-}
-
-.header__link:hover {
-    opacity: 0.6;
-}
-
-.header__main-illustration {
-    width: 765px;
-    height: 608px;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    border: 1px solid red;
-    z-index: 2;
-}
-
-
-.header__square-pic {
-    background-color: #2f80ed;
-    width: 568px;
-    height: 568px;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    top: 64px;
-    z-index: 1;
-    border: 1px solid red;
 }

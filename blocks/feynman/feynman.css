@@ -1,59 +1,16 @@
+@import url("./__title/feynman__title.css");
+
+@import url("./__subtitle/feynman__subtitle.css");
+
+@import url("./__link/feynman__link.css");
+
+@import url("./__illustration/feynman__illustration.css");
+
 .feynman {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     position: relative;
     height: 890px;
     background-color: #f2f2f2;
-}
-
-.feynman__title {
-    width: 648px;
-    margin: 100px auto 70px;
-    line-height: 1.15;
-    font-size: 120px;
-    font-weight: 600;
-    text-align: center;
-    position: relative;
-    z-index: 2;
-    border: 1px solid red;
-}
-
-.feynman__subtitle {
-    margin: 0 auto;
-    line-height: 51px;
-    font-size: 36px;
-    font-weight: normal;
-    text-align: center;
-    position: relative;
-    z-index: 2;
-    border: 1px solid red;
-}
-
-.feynman__link {
-    position: absolute;
-    top: 50%;
-    right: 48px;
-    line-height: 51px;
-    font-weight: normal;
-    font-size: 36px;
-    z-index: 2;
-    color: #2f80ed;
-    text-decoration: none;
-    opacity: 1;
-    transition: opacity 0.3s linear;
-    border: 1px solid red;
-}
-
-.feynman__link:hover {
-    opacity: 0.6;
-}
-
-.feynman__illustration {
-    z-index: 1;
-    width: 867px;
-    height: 637px;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    border: 1px solid red;
+    padding-top: 100px;
 }

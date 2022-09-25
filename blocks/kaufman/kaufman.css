@@ -1,45 +1,27 @@
+@import url("../table/table.css");
+
+@import url("../table/_theme_dark/table_theme_dark.css");
+
+@import url("../table/__cell/_theme_dark/table__cell_theme_dark.css");
+
 @import url("../rotation/rotation.css");
+
+@import url("../section-title/section-title.css");
+
+@import url("../section-title/_theme_dark/section-title_theme_dark.css");
+
+@import url("../section-subtitle/section-subtitle.css");
+
+@import url("../section-subtitle/_theme_dark/section-subtitle_theme_dark.css");
+
+@import url("./__triangle/kaufman__triangle.css");
+
+@import url("./_rotation/table_rotation.css");
 
 .kaufman {
     background-color: #1f1f1f;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-}
-
-.section-title_theme_dark {
-    margin: 90px auto 20px;
-    color: white;
-    line-height: 1.15;
-    font-weight: 600;
-    font-size: 60px;
-}
-
-.section-subtitle_theme_dark {
-    color: white;
-}
-
-.table_rotation {
-    position: relative;
-    z-index: 2;
-}
-
-.table_theme_dark {
-    margin: 0 auto 90px;
-}
-
-.table__cell_theme_dark {
-    width: 200px;
-    color: white;
-    margin: 80px 0 0;
-}
-
-.kaufman__triangle {
-    background-color: #2f80ed;
-    position: absolute;
-    width: 877px;
-    height: 877px;
-    right: -210px;
-    bottom: 0;
 }

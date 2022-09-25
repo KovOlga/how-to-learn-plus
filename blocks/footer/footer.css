@@ -1,6 +1,24 @@
+@import url("./__columns/footer__columns.css");
+
+@import url("./__column/_content_copyright/footer__column_content_copyright.css");
+
+@import url("../logo/logo.css");
+
+@import url("./__author/footer__author.css");
+
+@import url("./__column-heading/footer__column-heading.css");
+
+@import url("./__column-links/footer__column-links.css");
+
+@import url("./__paragraph/footer__paragraph.css");
+
+@import url("./__column-link/footer__column-link.css");
+
+@import url("./__social-icon/footer__social-icon.css");
+
 .footer {
     background-color: #1f1f1f;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     min-height: 350px;
     display: flex;
@@ -9,26 +27,7 @@
     color: white;
 }
 
-.footer__columns {
-    margin-top: 60px;
-    margin-bottom: 40px;
-    width: 90%;
-    border: 1px solid red;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.footer__column_content_copyright {
-    flex-basis: 711px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    border: 1px solid red;
-}
-
-.footer__column_content_info {
+/* .footer__column_content_info {
     border: 2px solid red;
 }
 
@@ -38,51 +37,4 @@
 
 .logo_place_footer {
     border: 2px solid red;
-}
-
-.footer__author {
-    margin: 18px 0;
-    border: 1px solid red;
-    line-height: 25px;
-    font-size: 18px;
-    font-weight: normal;
-}
-
-.footer__column-heading {
-    margin: 0;
-    border: 1px solid red;
-    line-height: 18px;
-    font-weight: 600;
-    font-size: 18px;
-}
-
-.footer__column-links {
-    margin: 20px 0 16px;
-    border: 1px solid red;
-    line-height: 18px;
-    font-weight: normal;
-    font-size: 18px;
-}
-
-.footer__paragraph {
-    margin: 0 0 10px;
-}
-
-.footer__column-link {
-    text-decoration: none;
-    color: white;
-}
-
-.footer__column-link:hover {
-    text-decoration: underline;
-}
-
-.footer__paragraph:last-of-type {
-    margin: 0;
-}
-
-.footer__social-icon {
-    width: 16px;
-    height: 16px;
-    margin: 0;
-}
+} */

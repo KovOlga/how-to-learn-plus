@@ -1,12 +1,12 @@
+@import url("../two-columns/two-columns.css");
+
+@import url("../two-columns/_block_oakley/two-columns_block_oakley.css");
+
 .oakley {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #f2f2f2;
-}
-
-.two-columns_block_oakley {
-    margin: 160px auto 100px;
 }

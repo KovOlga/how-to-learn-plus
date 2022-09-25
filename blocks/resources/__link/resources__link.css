@@ -1,0 +1,8 @@
+.resources__link {
+    text-decoration: none;
+    width: 270px;
+    height: 38px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}

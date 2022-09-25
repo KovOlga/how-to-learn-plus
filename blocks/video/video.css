@@ -1,25 +1,14 @@
+@import url("../section-title/section-title.css");
+
+@import url("../section-title/_theme_light/section-title_theme_light.css");
+
+@import url("../section-subtitle/section-subtitle.css");
+
+@import url("./__iframes/video__iframes.css");
+
+@import url("./__iframe/video__iframe.css");
+
 .video {
     margin: 0 auto;
-    border: 1px solid red;
-}
-
-.video__iframes {
-    margin: 50px auto 0;
-    border: 1px solid red;
-    position: relative;
-    bottom: -60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.video__iframe {
-    width: 515px;
-    height: 316px;
-    border: 1px solid red;
-    margin: 0 20px 0 0;
-}
-
-.video__iframe:last-of-type {
-    margin: 0;
+    /* border: 1px solid red; */
 }

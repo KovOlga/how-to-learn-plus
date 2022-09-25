@@ -1,0 +1,7 @@
+.footer__paragraph {
+    margin: 0 0 10px;
+}
+
+.footer__paragraph:last-of-type {
+    margin: 0;
+}
