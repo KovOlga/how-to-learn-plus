@@ -6,7 +6,7 @@
 
 @import url("../section-subtitle/section-subtitle.css");
 
-@import url("./cards/cards.css");
+@import url("../cards/cards.css");
 
 .techniques {
     /* border: 1px solid red; */

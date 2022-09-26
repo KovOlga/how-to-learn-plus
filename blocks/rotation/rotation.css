@@ -8,6 +8,6 @@
     }
 }
 
-.blue-pic_rotation {
+.header__mix {
     animation: rotation 20s infinite linear;
 }
