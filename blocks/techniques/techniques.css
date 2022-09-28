@@ -1,14 +1,5 @@
-@import url("./__content/techniques__content.css");
-
-@import url("../section-title/section-title.css");
-
-@import url("../section-title/_theme_light/section-title_theme_light.css");
-
-@import url("../section-subtitle/section-subtitle.css");
-
-@import url("../cards/cards.css");
-
 .techniques {
     /* border: 1px solid red; */
     margin: 0 auto;
+    padding-top: 100px;
 }

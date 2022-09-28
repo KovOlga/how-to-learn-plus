@@ -1,8 +1,9 @@
 .footer__column-link {
     text-decoration: none;
     color: white;
+    margin: 0 0 10px;
 }
 
-.footer__column-link:hover {
-    text-decoration: underline;
+.footer__column-link:last-of-type {
+    margin: 0;
 }

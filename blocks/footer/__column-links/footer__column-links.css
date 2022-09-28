@@ -4,4 +4,6 @@
     line-height: 18px;
     font-weight: normal;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
 }

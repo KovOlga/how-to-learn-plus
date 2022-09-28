@@ -1,9 +1,6 @@
-@import url("../two-columns/two-columns.css");
-
-@import url("../two-columns/_block_description/two-columns_block_description.css");
-
 .description {
     /* border: 1px solid red; */
+    padding-top: 100px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;

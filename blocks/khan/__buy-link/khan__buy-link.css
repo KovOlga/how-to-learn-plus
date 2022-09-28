@@ -6,7 +6,6 @@
     text-decoration: none;
     color: #2f80ed;
     margin: 0;
-    height: fit-content;
     opacity: 1;
     transition: opacity 0.3s linear;
 }
